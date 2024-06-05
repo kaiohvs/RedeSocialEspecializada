@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RedeSocialEspecializada.Application\RedeSocialEspecializada.Application.csproj" />
+    <ProjectReference Include="..\RedeSocialEspecializada.Common\RedeSocialEspecializada.Common.csproj" />
+    <ProjectReference Include="..\RedeSocialEspecializada.Domain\RedeSocialEspecializada.Domain.csproj" />
+    <ProjectReference Include="..\RedeSocialEspecializada.Infra\RedeSocialEspecializada.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
