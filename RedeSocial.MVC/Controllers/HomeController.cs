@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
+using RedeSocial.MVC.Models;
 using System.Diagnostics;
-using WebApplication1.Models;
 
-namespace WebApplication1.Controllers
+namespace RedeSocial.MVC.Controllers
 {
     public class HomeController : Controller
     {
